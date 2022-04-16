@@ -1,0 +1,15 @@
+{
+  "name": "Influencer 1",
+  "singleInstagramPost": "stringTest",
+  "videoContentSinglePost": "stringTest",
+  "beautifyBrands": "stringTest",
+  "instagramStoryPost": "stringTest",
+  "instagramReels": "stringTest",
+  "ambasssadorialDealOneMonth": "stringTest",
+  "ambasssadorialDealThreeMonth": "stringTest",
+  "ambasssadorialDealSixMonth": "stringTest",
+  "clientFlyer": "stringTest",
+  "catalogShoots": "stringTest",
+  "musicVideosNT": "stringTest",
+  "musicVideosDT": "stringTest"
+}
