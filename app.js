@@ -18,8 +18,6 @@ const influencerRoute = require("./routes/influencer");
 mongoose
   .connect(config.MONGODB_URI, {
     useNewUrlParser: true,
-    useCreateIndex: true,
-    useFindAndModify: false,
     useUnifiedTopology: true,
   })
   .then(() => {
