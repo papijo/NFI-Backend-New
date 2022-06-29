@@ -58,6 +58,7 @@ router.get("/", async (req, res) => {
       ? await Model.find().sort({ _id: -1 }).limit(5) //Query to show latest users. limit() method controls how many would be shown.
       : await Model.find();
     res.status(200).json(models);
+    console.log(models);
   } catch (err) {
     res.status(500).json(err);
   }
